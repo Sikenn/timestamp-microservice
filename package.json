@@ -1,0 +1,19 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "## APis and Microservices Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sikenn/timestamp-microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sikenn/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/Sikenn/timestamp-microservice#readme"
+}
