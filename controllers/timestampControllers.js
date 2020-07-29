@@ -1,5 +1,5 @@
 const newDate = (req, res) => {
-	res.json({ unix: Date.now(), utc: Date()});
+  res.json({ unix: Date.now(), utc: new Date().toUTCString() });
 }
 
 const parseDate = (req, res) => {
