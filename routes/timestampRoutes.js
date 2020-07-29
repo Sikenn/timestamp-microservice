@@ -1,10 +1,9 @@
 const express = require('express');
 const router = express();
 
-const controllers = require("../controllers/timestampControllers")
+const { newDate, parseDate } = require("../controllers/timestampControllers")
 
-router.get("/", controllers.newDate);
-router.get("/:date_string", controllers.parseDate);
-
+router.get("/", newDate);
+router.get("/:date_string", parseDate);
 
 module.exports = router;
